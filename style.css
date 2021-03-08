@@ -1,0 +1,64 @@
+:root {
+    --cor-principal: rgb(46, 49, 77);
+    --cor-secundaria: rgb(175, 207, 59);
+}
+
+nav {
+    max-width: 350px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    border-bottom: 1px solid var(--cor-secundaria);
+}
+
+nav ul li a {
+    background-color: var(--cor-principal);
+    color: #FFF;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    transition: background .3s;
+    
+}
+/*text-transform: uppercase;*/
+nav ul li a:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+}
+body{
+    background-image: url('../images/fundo.jpg');/*Aqui você coloca o link da sua imagem*/
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    backgrpund-position: center;
+  }
+  img.face{
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px;
+}
+
+.imagem {
+
+    width: 250px;
+    height: 250px;
+    background:url(‘http://url da imagem’);
+}
+.texto {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    color:#fff;
+    text-align: center;
+    top: 100px;
+    width: 250px;
+    line-height: 30px;
+    height: 30px;
+}
